@@ -44,10 +44,10 @@ public class Task3 {
         Matcher matcher;
 
         for (int i = 0; i < array.length; i++) {
-            matcher = pattern.matcher(array[i]);
+            matcher = pattern.matcher(array[i]); // проверяем элемент массива по заданному шаблону
             int j = 0;
-            while (matcher.find()) {
-                temp[i][j] = matcher.group();
+            while (matcher.find()) { // цикл выполняется пока есть соответствия по шаблону
+                temp[i][j] = matcher.group(); // добавляем значение в массив
                 j++;
             }
         }
