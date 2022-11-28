@@ -1,0 +1,571 @@
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [12, 5, -9, 0, -55, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 1 и 0, значения элементов: 5 и 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 5 < 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 5
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [5, 12, -9, 0, -55, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 2 и 0, значения элементов: -9 и 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: -9 < 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: -9
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-9, 12, 5, 0, -55, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 3 и 0, значения элементов: 0 и -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 0 > -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-9, 12, 5, 0, -55, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 4 и 0, значения элементов: -55 и -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: -55 < -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: -55
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, 12, 5, 0, -9, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 5 и 0, значения элементов: 3 и -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 3 > -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, 12, 5, 0, -9, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 6 и 0, значения элементов: 2 и -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 2 > -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, 12, 5, 0, -9, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 7 и 0, значения элементов: 4 и -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 4 > -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, 12, 5, 0, -9, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 8 и 0, значения элементов: 5 и -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 5 > -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, 12, 5, 0, -9, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 9 и 0, значения элементов: 6 и -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 6 > -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, 12, 5, 0, -9, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 10 и 0, значения элементов: 9 и -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 9 > -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, 12, 5, 0, -9, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 11 и 0, значения элементов: 2 и -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 2 > -55
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, 12, 5, 0, -9, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 2 и 1, значения элементов: 5 и 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 5 < 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 5
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, 5, 12, 0, -9, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 3 и 1, значения элементов: 0 и 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 0 < 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 0
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, 0, 12, 5, -9, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 4 и 1, значения элементов: -9 и 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: -9 < 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: -9
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 12, 5, 0, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 5 и 1, значения элементов: 3 и -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 3 > -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 12, 5, 0, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 6 и 1, значения элементов: 2 и -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 2 > -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 12, 5, 0, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 7 и 1, значения элементов: 4 и -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 4 > -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 12, 5, 0, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 8 и 1, значения элементов: 5 и -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 5 > -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 12, 5, 0, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 9 и 1, значения элементов: 6 и -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 6 > -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 12, 5, 0, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 10 и 1, значения элементов: 9 и -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 9 > -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 12, 5, 0, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 11 и 1, значения элементов: 2 и -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 2 > -9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 12, 5, 0, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 3 и 2, значения элементов: 5 и 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 5 < 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 5
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 5, 12, 0, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 4 и 2, значения элементов: 0 и 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 0 < 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 0
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 12, 5, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 5 и 2, значения элементов: 3 и 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 3 > 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 12, 5, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 6 и 2, значения элементов: 2 и 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 2 > 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 12, 5, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 7 и 2, значения элементов: 4 и 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 4 > 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 12, 5, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 8 и 2, значения элементов: 5 и 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 5 > 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 12, 5, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 9 и 2, значения элементов: 6 и 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 6 > 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 12, 5, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 10 и 2, значения элементов: 9 и 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 9 > 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 12, 5, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 11 и 2, значения элементов: 2 и 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 2 > 0
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 12, 5, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 4 и 3, значения элементов: 5 и 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 5 < 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 5
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 5, 12, 3, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 5 и 3, значения элементов: 3 и 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 3 < 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 3
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 3, 12, 5, 2, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 6 и 3, значения элементов: 2 и 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 2 < 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 2
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 2
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 12, 5, 3, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 7 и 3, значения элементов: 4 и 2
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 4 > 2
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 12, 5, 3, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 8 и 3, значения элементов: 5 и 2
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 5 > 2
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 12, 5, 3, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 9 и 3, значения элементов: 6 и 2
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 6 > 2
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 12, 5, 3, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 10 и 3, значения элементов: 9 и 2
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 9 > 2
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 12, 5, 3, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 11 и 3, значения элементов: 2 и 2
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 2 > 2
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 12, 5, 3, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 5 и 4, значения элементов: 5 и 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 5 < 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 5
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 5, 12, 3, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 6 и 4, значения элементов: 3 и 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 3 < 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 3
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 3, 12, 5, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 7 и 4, значения элементов: 4 и 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 4 > 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 3, 12, 5, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 8 и 4, значения элементов: 5 и 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 5 > 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 3, 12, 5, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 9 и 4, значения элементов: 6 и 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 6 > 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 3, 12, 5, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 10 и 4, значения элементов: 9 и 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 9 > 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 3, 12, 5, 4, 5, 6, 9, 2]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 11 и 4, значения элементов: 2 и 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 2 < 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 2
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 2
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 12, 5, 4, 5, 6, 9, 3]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 6 и 5, значения элементов: 5 и 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 5 < 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 5
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 5, 12, 4, 5, 6, 9, 3]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 7 и 5, значения элементов: 4 и 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 4 < 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 4
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 4
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 4, 12, 5, 5, 6, 9, 3]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 8 и 5, значения элементов: 5 и 4
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 5 > 4
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 4, 12, 5, 5, 6, 9, 3]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 9 и 5, значения элементов: 6 и 4
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 6 > 4
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 4, 12, 5, 5, 6, 9, 3]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 10 и 5, значения элементов: 9 и 4
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 9 > 4
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 4, 12, 5, 5, 6, 9, 3]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 11 и 5, значения элементов: 3 и 4
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 3 < 4
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 3
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 4
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 3
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 12, 5, 5, 6, 9, 4]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 7 и 6, значения элементов: 5 и 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 5 < 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 5
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 5, 12, 5, 6, 9, 4]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 8 и 6, значения элементов: 5 и 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 5 > 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 5, 12, 5, 6, 9, 4]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 9 и 6, значения элементов: 6 и 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 6 > 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 5, 12, 5, 6, 9, 4]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 10 и 6, значения элементов: 9 и 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 9 > 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 5, 12, 5, 6, 9, 4]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 11 и 6, значения элементов: 4 и 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 4 < 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 4
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 4
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 4, 12, 5, 6, 9, 5]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 8 и 7, значения элементов: 5 и 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 5 < 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 5
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 4, 5, 12, 6, 9, 5]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 9 и 7, значения элементов: 6 и 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 6 > 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 4, 5, 12, 6, 9, 5]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 10 и 7, значения элементов: 9 и 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 9 > 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 4, 5, 12, 6, 9, 5]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 11 и 7, значения элементов: 5 и 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 5 > 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 4, 5, 12, 6, 9, 5]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 9 и 8, значения элементов: 6 и 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 6 < 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 6
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 6
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 4, 5, 6, 12, 9, 5]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 10 и 8, значения элементов: 9 и 6
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие неверно: 9 > 6
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 4, 5, 6, 12, 9, 5]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 11 и 8, значения элементов: 5 и 6
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 5 < 6
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 5
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 6
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 5
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 4, 5, 5, 12, 9, 6]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 10 и 9, значения элементов: 9 и 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 9 < 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 9
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 4, 5, 5, 9, 12, 6]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 11 и 9, значения элементов: 6 и 9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 6 < 9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 6
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 6
+
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: Текущее состояние массива чисел: [-55, -9, 0, 2, 2, 3, 4, 5, 5, 6, 12, 9]
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: сравниваем переменные под индексами: 11 и 10, значения элементов: 9 и 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: условие верно: 9 < 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной temp значение: 9
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[i] значение: 12
+нояб. 28, 2022 10:17:36 PM homework2.task2.Task2 bubbleSort
+INFO: присвоили переменной array[j] значение: 9
+
