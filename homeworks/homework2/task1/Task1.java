@@ -19,6 +19,7 @@ public class Task1 {
     метод, конвертирует текст из файла в массив строк.
      */
     private static String[] convertFileToStringArray(String path) {
+        // чтение данных из файла
         StringBuilder sb = new StringBuilder();
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             int ch;
