@@ -1,3 +1,5 @@
+package homework4;
+
 import java.util.*;
 
 /*
@@ -6,27 +8,26 @@ enqueue() - помещает элемент в конец очереди, dequeu
 */
 public class Task2{
 	
-	private static void enqueue(List<String> list, String element) {
-		list.add(element);
+	private static void enqueue(LinkedList<String> list, String element) {
+		list.add(element); // метод add() с одним параметром, всегда будет помещать значение в конец очереди.
 	}
 	
 	private static String dequeue(LinkedList<String> list) {
-		return list.pollFirst();
+		return list.pollFirst(); // метод pollFirst() возвращает первый элемент и удаляет его
 	}
 	
 	private static String first(LinkedList<String> list) {
-		return list.getFirst();
+		return list.getFirst(); // метод getFirst() просто возвращет первый элемент
 	}
 
     public static void main(String args[]){
 	
 	LinkedList<String> list = new LinkedList<>();
+
 	enqueue(list, "zxcv");
 	enqueue(list, "abcd");
 	enqueue(list, "qwer");
 	enqueue(list, "poiu");
-	
-	
 	
 	System.out.printf("Исходный список: %s\n", list);
 	System.out.printf("Первый элемент из списка: %s\n", dequeue(list));
@@ -34,6 +35,3 @@ public class Task2{
 	System.out.printf("Первый элемент из списка: %s\n", first(list));
     }
 }
-
-
-
