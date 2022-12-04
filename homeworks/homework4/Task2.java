@@ -15,17 +15,17 @@ public class Task2{
 	}
 	
 	private static String first(LinkedList<String> list) {
-		return list.getFirst();
+		return list.peekFirst();
 	}
 
     public static void main(String args[]){
 	
 	LinkedList<String> list = new LinkedList<>();
+	
 	enqueue(list, "zxcv");
 	enqueue(list, "abcd");
 	enqueue(list, "qwer");
 	enqueue(list, "poiu");
-	
 	
 	
 	System.out.printf("Исходный список: %s\n", list);
