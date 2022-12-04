@@ -1,3 +1,5 @@
+package homework4;
+
 import java.util.*;
 
 
@@ -8,7 +10,7 @@ public class Task1{
 	
 	// метод #1: разворачиваем список с помощью метода reverse() класса Collections
 	private static void listReverse1(LinkedList<Integer> sourceList) {
-		Collections.reverse(sourceList); 	// CheatMode = "ON";
+		Collections.reverse(sourceList); 	// CheatsMode = "ON";
 	}
 	
 	// метод #2 разворот списка с помощью метода pollLast()
