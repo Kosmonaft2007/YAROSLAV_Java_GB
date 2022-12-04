@@ -22,16 +22,16 @@ public class Task2{
 
     public static void main(String args[]){
 	
-	LinkedList<String> list = new LinkedList<>();
+	  LinkedList<String> list = new LinkedList<>();
 
-	enqueue(list, "zxcv");
-	enqueue(list, "abcd");
-	enqueue(list, "qwer");
-	enqueue(list, "poiu");
+	  enqueue(list, "zxcv");
+	  enqueue(list, "abcd");
+	  enqueue(list, "qwer");
+	  enqueue(list, "poiu");
 	
-	System.out.printf("Исходный список: %s\n", list);
-	System.out.printf("Первый элемент из списка: %s\n", dequeue(list));
-	System.out.printf("Список после удаления первого значения: %s\n", list);
-	System.out.printf("Первый элемент из списка: %s\n", first(list));
+	  System.out.printf("Исходный список: %s\n", list);
+	  System.out.printf("Первый элемент из списка: %s\n", dequeue(list));
+	  System.out.printf("Список после удаления первого значения: %s\n", list);
+	  System.out.printf("Первый элемент из списка: %s\n", first(list));
     }
 }
