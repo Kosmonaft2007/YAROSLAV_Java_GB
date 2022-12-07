@@ -30,8 +30,8 @@ public class Task2{
 	  enqueue(list, "poiu");
 	
 	  System.out.printf("Исходный список: %s\n", list);
-	  System.out.printf("Первый элемент из списка: %s\n", dequeue(list));
-	  System.out.printf("Список после удаления первого значения: %s\n", list);
-	  System.out.printf("Первый элемент из списка: %s\n", first(list));
+	  System.out.printf("Первый элемент из очереди: %s\n", dequeue(list));
+	  System.out.printf("очередь после удаления первого значения: %s\n", list);
+	  System.out.printf("Первый элемент из очереди: %s\n", first(list));
     }
 }

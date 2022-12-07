@@ -43,7 +43,7 @@ public class Task1{
 	long start = System.nanoTime();
 	listReverse1(list);
 	long finish= System.nanoTime();
-	System.out.printf("Перевернутый список: %s\nВремя выполнения %d\n", list, finish - start);
+	System.out.printf("Перевернутый список: %s\nВремя выполнения %d наносекунд\n", list, finish - start);
 	
 	
 	System.out.println("======= метод #2 =======");
@@ -51,14 +51,14 @@ public class Task1{
 	start = System.nanoTime();
 	listReverse2(list);
 	finish= System.nanoTime();
-	System.out.printf("Перевернутый список: %s\nВремя выполнения %d\n", list, finish - start);
+	System.out.printf("Перевернутый список: %s\nВремя выполнения %d наносекунд\n", list, finish - start);
 	
 	System.out.println("======= метод #3 =======");
 	System.out.printf("Исходный список: %s\n", list);
 	start = System.nanoTime();
 	LinkedList<Integer> list3 = listReverse3(list);
 	finish= System.nanoTime();
-	System.out.printf("Перевернутый список: %s\nВремя выполнения %d\n", list3, finish - start);
+	System.out.printf("Перевернутый список: %s\nВремя выполнения %d наносекунд\n", list3, finish - start);
 	
     }
 }
