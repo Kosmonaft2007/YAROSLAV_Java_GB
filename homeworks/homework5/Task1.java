@@ -25,23 +25,25 @@ public class Task1{
 
 
     public static void main(String args[]){
-	
-	Scanner scan = new Scanner(System.in);
 	Map<String, LinkedList<String>> phoneBook = new HashMap();
 	
+	Scanner scan = new Scanner(System.in);
 	System.out.println("Enter name: ");
 	String name = scan.nextLine();
-	do {
-		System.out.println("Enter phone: "); 
+	
+	while(!name.equals("quit") {
+		System.out.println("Enter phone: ");
 		String phone = scan.nextLine();
-	} while(!isPhoneNumber(phone)); // проверяем номер телефона 
-	
-	if (!phoneBook.containsKey(name)) { 
+		
+		if (!isPhoneNumber(phone)) 
+			continue;
+		if (!phoneBook.containsKey(name)) { 
 		phoneBook.put(name, new LinkedList<String>);
-	} else {
-		phoneBook.get(name).add(phone);
+		} else {
+			phoneBook.get(name).add(phone);
+			String name = scan.nextLine();
+		}
 	}
-	
     }
 }
 
