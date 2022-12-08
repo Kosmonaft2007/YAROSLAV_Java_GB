@@ -9,27 +9,35 @@ import java.util.*;
 */
 public class Task2 {
 
+	/*
+	метод, проверяет список на одинаковые значения,
+	подсчитывает количество повторов этих значений
+	и записывает данные в отображение (мар)
+	*/
     private static Map<String, Integer> employeesDuplicates(List<String> list) {
         Map<String, Integer> map = new HashMap<>();
 
-        for (String name : list) {
-            if (!map.containsKey(name)) {
-                map.put(name, 1);
+        for (String name : list) {	// итерируемся по списку
+            if (!map.containsKey(name)) {	// проверяем, если такого ключа нет в отображении
+                map.put(name, 1);	// добавляем ключ со значением 1
             } else {
-                int i = map.get(name);
-                map.put(name, i + 1);
+                int count = map.get(name);	// узнаем значение по данному ключу
+                map.put(name, count + 1);	// переписываем данный ключ с новым, инкрементированным значением
             }
         }
-        return map;
+    return map;
     }
 
+	/*
+	метод, сортирует сотрудников по значению отображения (мар) (кол-во совпадений имени)
+	*/
     private static Map<String, Integer> sortedEmployeesByValue(Map<String, Integer> map) {
-        List<Map.Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
-        list.sort(Map.Entry.comparingByValue(((o1, o2) -> o2 - o1)));
+        List<Map.Entry<String, Integer>> list = new ArrayList<>(map.entrySet());	// записываем в новый список входящее отображение
+        list.sort(Map.Entry.comparingByValue(((o1, o2) -> o2 - o1)));	// сортируем список по значению отображения, передав в параметры метод comparingByValue() и компаратор в виде лямбда-выражения (о2 - о1 для сортировки по убыванию)
 
-        Map<String, Integer> result = new LinkedHashMap<>();
-        for (Map.Entry<String, Integer> entry : list) {
-            result.put(entry.getKey(), entry.getValue());
+        Map<String, Integer> result = new LinkedHashMap<>();	// создаем коллекцию на основе LinkedHashMap(), т.к. эта коллекция запоминает порядок добавления
+	 for (Map.Entry<String, Integer> entry : list) {	// итерируемся по списку
+            result.put(entry.getKey(), entry.getValue());	// добавляем ключ/значение в новое отображение
         }
         return result;
     }

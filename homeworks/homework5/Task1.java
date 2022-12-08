@@ -36,8 +36,7 @@ public class Task1 {
             do {
                 System.out.print("Enter phone (format numbers example: 89876543210\n>>>");
                 phone = scan.nextLine();    // запрос ввода номера телефона (значение)
-            }
-            while (!isPhoneNumber(phone));  // проверка корректности номера телефона
+            } while (!isPhoneNumber(phone));  // проверка корректности номера телефона
 
             if (!phoneBook.containsKey(name)) {     // проверка присутствия ключа в словаре
                 phoneBook.put(name, new ArrayList<>()); // добавляем новое ключ/значение в словарь
