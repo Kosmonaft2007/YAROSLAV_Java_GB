@@ -1,74 +1,62 @@
+package homework5;
 
 /*
 Реализовать алгоритм пирамидальной сортировки (HeapSort).
 */
-public class Task3{
+public class Task3 {
 
-    private static void sort(int arr[])
-    {
-        int n = arr.length;
+    /*
+    метод сортирует массив по возрастанию
+     */
+    private static void sort(int[] array) {
+        int size = array.length;
 
-        // Построение кучи (перегруппируем массив)
-        for (int i = n / 2 - 1; i >= 0; i--)
-            heapify(arr, n, i);
+        for (int i = size / 2 - 1; i >= 0; i--) {   // Построение кучи
+            heap(array, size, i);
+        }
 
-        // Один за другим извлекаем элементы из кучи   
-        for (int i=n-1; i>=0; i--)
-        {
+        for (int i = size - 1; i >= 0; i--) {   // извлекаем элементы из кучи
             // Перемещаем текущий корень в конец
-            int temp = arr[0];
-            arr[0] = arr[i];
-            arr[i] = temp;
+            int temp = array[0];
+            array[0] = array[i];
+            array[i] = temp;
 
-            // Вызываем процедуру heapify на уменьшенной куче
-            heapify(arr, i, 0);
+            heap(array, i, 0);  // Вызываем метод heap на уменьшенной куче
         }
     }
 
-    // Процедура для преобразования в двоичную кучу поддерева с корневым узлом i, что является
-// индексом в arr[]. n - размер кучи
-     private static void heapify(int arr[], int n, int i)
-    {
-        int largest = i; // Инициализируем наибольший элемент как корень
-        int l = 2*i + 1; // левый = 2*i + 1
-        int r = 2*i + 2; // правый = 2*i + 2
+    /*
+     метод преобразования в двоичную кучу поддерева с корневым узлом i
+     */
+    private static void heap(int[] array, int size, int root) {
+        int biggest = root; // Инициализируем наибольший элемент как корень
+        int leftValue = 2 * root + 1;
+        int rightValue = 2 * root + 2;
 
-           // Если левый дочерний элемент больше корня
-        if (l < n && arr[l] > arr[largest])
-            largest = l;
+        if (leftValue < size && array[leftValue] > array[biggest])  // Если левый элемент больше корня
+            biggest = leftValue;
 
-          // Если правый дочерний элемент больше, чем самый большой элемент на данный момент
-        if (r < n && arr[r] > arr[largest])
-            largest = r;
-       // Если самый большой элемент не корень
-        if (largest != i)
-        {
-            int swap = arr[i];
-            arr[i] = arr[largest];
-            arr[largest] = swap;
+        if (rightValue < size && array[rightValue] > array[biggest])     // Если правый элемент больше, чем самый большой элемент на данный момент
+            biggest = rightValue;
 
-          // Рекурсивно преобразуем в двоичную кучу затронутое поддерево
-            heapify(arr, n, largest);
+        if (biggest != root) {    // Если самый большой элемент не корень
+            int temp = array[root];
+            array[root] = array[biggest];
+            array[biggest] = temp;
+
+            heap(array, size, biggest);   // Рекурсивно преобразуем в двоичную кучу затронутое поддерево
         }
     }
 
-    /* Вспомогательная функция для вывода на экран массива размера n */
-    private static void printArray(int arr[])
-    {
-        int n = arr.length;
-        for (int i=0; i<n; ++i)
-            System.out.print(arr[i]+" ");
-        System.out.println();
-    }
+    public static void main(String[] args) {
+        int[] array = {5, 6, 0, 2, 15, 12, 10, -5, 8, -2};
+        long start = System.nanoTime();
+        sort(array);
+        long finish = System.nanoTime();
 
-    // Управляющая программа
-    public static void main(String args[])
-    {
-        int arr[] = {12, 11, 13, 5, 6, 7};
-
-        sort(arr);
-
-        System.out.println("Sorted array is");
-        printArray(arr);
+        for (int i : array) {
+            System.out.print(i + " ");
+        }
+        System.out.printf("\nСкорость алгоритма в наносекундах: %d", finish - start);
     }
 }
