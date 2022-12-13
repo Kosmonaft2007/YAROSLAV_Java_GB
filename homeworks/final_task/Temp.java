@@ -3,25 +3,50 @@ import java.util.function.Predicate;
 
 public class Temp{
 	
-	private static void userInput(Set<Laptop> set) {
-		LaptopFilter lf = new LaptopFilter();
+	/*
+	метод на вход принимает множество (Set) и функциональный интерфейс (Predicate), типизированный Laptop
+	*/
+	private static void laptopFilter(Set<Laptop> set, Predicate<Laptop> prd) {
 		
-		Scanner scanner = new Scanner(System.in);
-        	System.out.println("Введите цифру, соответствующую нужной категории и введите нужный параметр: \n" +
+		Iterator<Laptop> value = set.iterator();
+		
+        	while (value.hasNext()) {
+           		if (prd.test(value.next())) {	// сортируем по условию заданному при вызове метода
+				set.remove(value.next());	// удаляем элемент из множества
+			}
+		}
+	}
+	
+	/*
+	метод взаимодействия с пользователем
+	в зависимости от параметров ввода происходит необходимая фильтрация 
+	*/
+	private static void userInput(Set<Laptop> set) {
+		//LaptopFilter lf = new LaptopFilter();
+		Scanner scan = new Scanner(System.in);
+        	/*System.out.println("Введите цифру, соответствующую нужной категории и введите нужный параметр: \n" +
                 "1 - Брэнд\n" +
                 "2 - Количество ядер процессора\n" +
                 "3 - Размер оперативной памяти\n" +
                 "4 - Объем накопителя\n" +
                 "5 - Размер дисплея\n" +
                 "0 - Завершить выбор значений фильтра\n" +
-                ">>> ");
-        	int input = scanner.nextInt();
+                ">>> ");*/
+        	int input = 1;
 
-       while (input != 0) {
+       //while (input != 0) {
+	   	System.out.println("Введите цифру, соответствующую нужной категории и введите нужный параметр, либо 0 для заверщения: \n" +
+                    "1 - Брэнд\n" +
+                    "2 - Количество ядер процессора\n" +
+                    "3 - Размер оперативной памяти\n" +
+                    "4 - Объем накопителя\n" +
+                    "5 - Размер дисплея\n" +
+                    "0 - Завершить выбор значений фильтра\n");
+	   	//input = scan.nextInt();
             if (input == 1) {
                 System.out.println("Введите брэнд ноутбука: ");
-                String brand = new Scanner(System.in).nextLine();
-			lf.laptopFilter(set, laptop -> laptop.getlaptopBrand().equals(brand));
+                int storageCapacity = scan.nextInt();
+			laptopFilter(set, laptop -> laptop.getStorageCapacity() >= storageCapacity);
             } /*else if (input == 2) {
                 System.out.println("Введите количество ядер процессора: ");
                 int coreAmount = new Scanner(System.in).nextInt();
@@ -41,23 +66,24 @@ public class Temp{
             } */else {
                 System.out.println("Некорректное значение, повторите ввод.");
             }
-            System.out.println("Введите цифру, соответствующую нужной категории и введите нужный параметр, либо 0 для заверщения: \n" +
+            /*System.out.println("Введите цифру, соответствующую нужной категории и введите нужный параметр, либо 0 для заверщения: \n" +
                     "1 - Брэнд\n" +
                     "2 - Количество ядер процессора\n" +
                     "3 - Размер оперативной памяти\n" +
                     "4 - Объем накопителя\n" +
                     "5 - Размер дисплея\n" +
-                    "0 - Завершить выбор значений фильтра\n");
-            input = scanner.nextInt();
-        }
-        scanner.close();
-		System.out.println(set);
+                    "0 - Завершить выбор значений фильтра\n");*/
+            	//input = scan.nextInt();
+		
+        scan.close();
+	System.out.println(set);
 	}
 
     public static void main(String args[]){
-	Set<Laptop> laptopSet = new HashSet();
-	Laptop laptop1 = new Laptop("ASUS", "AMD Ryzen 7", 6, 8, 256, 4, 13);
-	Laptop laptop2 = new Laptop("HP", "Intel i7", 8, 16, 512, 8, 15);
+	
+	Set<Laptop> laptopSet = new LinkedHashSet();
+	Laptop laptop1 = new Laptop("ASUS", "AMD", 6, 8, 256, 4, 13);
+	Laptop laptop2 = new Laptop("HP", "Intel", 8, 16, 512, 8, 15);
 	Laptop laptop3 = new Laptop("Apple", "Apple M1", 8, 16, 512, 8, 14);
 	Laptop laptop4 = new Laptop("Lenovo", "Intel i5", 8, 8, 256, 4, 13);
 	
@@ -66,13 +92,20 @@ public class Temp{
 	laptopSet.add(laptop3);
 	laptopSet.add(laptop4);
 	
-	//System.out.println(laptopSet);
 	userInput(laptopSet);
-	
 	
     }
 }
-
+/* 
+класс, описание ноутбука
+@laptopBrand - Брэнд
+@processorModel - модель процессора
+@processorCoreAmount - количество ядер процессора
+@RAMSize - размер оперативной памяти
+@storageCapacity - объем накопителя
+@videoAdapterRAM - размер памяти видеокарты
+@screenDiagonal - диагональ экрана
+*/
 class Laptop {
 	private String laptopBrand;
 	private String processorModel;
@@ -96,6 +129,10 @@ class Laptop {
 		return laptopBrand;
 	}
 	
+	public int getStorageCapacity(){
+		return storageCapacity;
+	}
+	
 	@Override
 	public boolean equals(Object o) {
 		if (this == o) return true;
@@ -116,16 +153,20 @@ class Laptop {
 	
 }
 
+/*
+класс, реализует единственный метод, который выполняет фильтрацию значений
+*/
 class LaptopFilter{
-	Set<Laptop> laptopFilter(Set<Laptop> set, Predicate<Laptop> prd) {
-		Set<Laptop> laptopAfterFiltering = new HashSet<>();
 	
-		for (Laptop laptop : set){
-			if (!prd.test(laptop)) {
-				laptopAfterFiltering.remove(laptop);
+	/*
+	метод на вход принимает множество (Set) и функциональный интерфейс (Predicate), типизированный Laptop
+	*/
+	void laptopFilter(Set<Laptop> set, Predicate<Laptop> prd) {
+		
+		for (Laptop laptop : set){	// проходим по всем элементам множества
+			if (prd.test(laptop)) {	// сортируем по условию заданному при вызове метода
+				set.remove(laptop);	// удаляем элемент из множества
 			}
 		}
-		
-		return laptopAfterFiltering;
 	}
 }
