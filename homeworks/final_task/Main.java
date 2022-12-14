@@ -12,7 +12,8 @@ public class Main {
 
     public static void main(String[] args) {
         Set<Laptop> laptops = new HashSet<>();
-
+        
+        // описание всех ноутбуков
         Laptop laptop1 = new Laptop("ASUS", "Vivo", "Windows 11",
                 new Description(new Processor("Intel", "i9", "x64", "8", "3200"),
                         new Ram("Crucial", "DDR3L", "32", "2400"),
@@ -53,6 +54,7 @@ public class Main {
                         new VideoAdapter("NVIDIA", "GeForce RTX 3050", "External", "4", "DDR4")),
                 "China");
 
+        // добавление ноутбуков в множество
         laptops.add(laptop1);
         laptops.add(laptop2);
         laptops.add(laptop3);
