@@ -8,10 +8,10 @@ import java.util.Objects;
 public class Ram{
 	private String brand;
 	private String typeMemory;
-	private int sizeMemory;
-	private int frequencyMemory;
+	private String sizeMemory;
+	private String frequencyMemory;
 
-	public Ram(String brand, String typeMemory, int sizeMemory, int frequencyMemory) {
+	public Ram(String brand, String typeMemory, String sizeMemory, String frequencyMemory) {
 		this.brand = brand;
 		this.typeMemory = typeMemory;
 		this.sizeMemory = sizeMemory;
@@ -26,11 +26,11 @@ public class Ram{
 		return typeMemory;
 	}
 
-	public int getSizeMemory() {
+	public String getSizeMemory() {
 		return sizeMemory;
 	}
 
-	public int getFrequencyMemory() {
+	public String getFrequencyMemory() {
 		return frequencyMemory;
 	}
 

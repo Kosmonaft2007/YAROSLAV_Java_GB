@@ -9,10 +9,10 @@ public class VideoAdapter{
 	private String brand;
 	private String model;
 	private String adapterType;
-	private int ramSize;
+	private String ramSize;
 	private String ramType;
 
-	public VideoAdapter(String brand, String model, String adapterType, int ramSize, String ramType) {
+	public VideoAdapter(String brand, String model, String adapterType, String ramSize, String ramType) {
 		this.brand = brand;
 		this.model = model;
 		this.adapterType = adapterType;
@@ -32,7 +32,7 @@ public class VideoAdapter{
 		return adapterType;
 	}
 
-	public int getRamSize() {
+	public String getRamSize() {
 		return ramSize;
 	}
 

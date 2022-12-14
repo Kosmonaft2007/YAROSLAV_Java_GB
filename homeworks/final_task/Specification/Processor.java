@@ -8,10 +8,10 @@ public class Processor{
 	private String brand;
 	private String model;
 	private String typeArchitecture;
-	private int coresAmount;
-	private int frequency;
+	private String coresAmount;
+	private String frequency;
 
-	public Processor(String brand, String model, String typeArchitecture, int coresAmount, int frequency) {
+	public Processor(String brand, String model, String typeArchitecture, String coresAmount, String frequency) {
 		this.brand = brand;
 		this.model = model;
 		this.typeArchitecture = typeArchitecture;
@@ -31,11 +31,11 @@ public class Processor{
 		return typeArchitecture;
 	}
 
-	public int getCoresAmount() {
+	public String getCoresAmount() {
 		return coresAmount;
 	}
 
-	public int getFrequency() {
+	public String getFrequency() {
 		return frequency;
 	}
 

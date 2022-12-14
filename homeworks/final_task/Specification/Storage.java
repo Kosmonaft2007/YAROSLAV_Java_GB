@@ -8,9 +8,9 @@ import java.util.Objects;
 public class Storage{
 	private String brand;
 	private String typeStorage;
-	private int capacityStorage;
+	private String capacityStorage;
 
-	public Storage(String brand, String typeStorage, int capacityStorage) {
+	public Storage(String brand, String typeStorage, String capacityStorage) {
 		this.brand = brand;
 		this.typeStorage = typeStorage;
 		this.capacityStorage = capacityStorage;
@@ -24,7 +24,7 @@ public class Storage{
 		return typeStorage;
 	}
 
-	public int getCapacityStorage() {
+	public String getCapacityStorage() {
 		return capacityStorage;
 	}
 

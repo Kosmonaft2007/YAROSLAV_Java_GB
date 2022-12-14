@@ -7,17 +7,17 @@ import java.util.Objects;
 */
 public class Display{
 
-	private int screenDiagonal;
+	private String screenDiagonal;
 	private String screenResolution;
 	private String matrixType;
 
-	public Display(int screenDiagonal, String screenResolution, String matrixType) {
+	public Display(String screenDiagonal, String screenResolution, String matrixType) {
 		this.screenDiagonal = screenDiagonal;
 		this.screenResolution = screenResolution;
 		this.matrixType = matrixType;
 	}
 
-	public int getScreenDiagonal() {
+	public String getScreenDiagonal() {
 		return screenDiagonal;
 	}
 
