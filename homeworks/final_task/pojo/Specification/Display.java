@@ -1,9 +1,9 @@
-package final_task.Specification;
+package final_task.pojo.Specification;
 
 import java.util.Objects;
 
 /*
-класс, описание параметров дисплея
+класс, описание параметров/характеристик дисплея
 */
 public class Display{
 
@@ -33,13 +33,22 @@ public class Display{
 	public boolean equals(Object o) {
 		if (this == o) return true;
 		if (o == null || getClass() != o.getClass()) return false;
+
 		Display display = (Display) o;
-		return screenDiagonal == display.screenDiagonal && Objects.equals(screenResolution, display.screenResolution) && Objects.equals(matrixType, display.matrixType);
+
+		if (!Objects.equals(screenDiagonal, display.screenDiagonal))
+			return false;
+		if (!Objects.equals(screenResolution, display.screenResolution))
+			return false;
+		return Objects.equals(matrixType, display.matrixType);
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(screenDiagonal, screenResolution, matrixType);
+		int result = screenDiagonal != null ? screenDiagonal.hashCode() : 0;
+		result = 31 * result + (screenResolution != null ? screenResolution.hashCode() : 0);
+		result = 31 * result + (matrixType != null ? matrixType.hashCode() : 0);
+		return result;
 	}
 
 	@Override

@@ -1,9 +1,9 @@
-package final_task.Specification;
+package final_task.pojo.Specification;
 
 import java.util.Objects;
 
 /*
-класс, описание параметров оперативной памяти
+класс, описание параметров/характеристик оперативной памяти
 */
 public class Ram{
 	private String brand;
@@ -38,13 +38,22 @@ public class Ram{
 	public boolean equals(Object o) {
 		if (this == o) return true;
 		if (o == null || getClass() != o.getClass()) return false;
+
 		Ram ram = (Ram) o;
-		return sizeMemory == ram.sizeMemory && frequencyMemory == ram.frequencyMemory && Objects.equals(brand, ram.brand) && Objects.equals(typeMemory, ram.typeMemory);
+
+		if (!Objects.equals(brand, ram.brand)) return false;
+		if (!Objects.equals(typeMemory, ram.typeMemory)) return false;
+		if (!Objects.equals(sizeMemory, ram.sizeMemory)) return false;
+		return Objects.equals(frequencyMemory, ram.frequencyMemory);
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(brand, typeMemory, sizeMemory, frequencyMemory);
+		int result = brand != null ? brand.hashCode() : 0;
+		result = 31 * result + (typeMemory != null ? typeMemory.hashCode() : 0);
+		result = 31 * result + (sizeMemory != null ? sizeMemory.hashCode() : 0);
+		result = 31 * result + (frequencyMemory != null ? frequencyMemory.hashCode() : 0);
+		return result;
 	}
 
 	@Override

@@ -1,4 +1,4 @@
-package final_task;
+package final_task.pojo;
 
 import java.util.Objects;
 

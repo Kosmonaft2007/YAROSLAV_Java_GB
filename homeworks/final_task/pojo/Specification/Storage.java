@@ -1,9 +1,9 @@
-package final_task.Specification;
+package final_task.pojo.Specification;
 
 import java.util.Objects;
 
 /*
-класс, описание параметров хранилища данных
+класс, описание параметров/характеристик накопителя данных
 */
 public class Storage{
 	private String brand;
@@ -32,13 +32,20 @@ public class Storage{
 	public boolean equals(Object o) {
 		if (this == o) return true;
 		if (o == null || getClass() != o.getClass()) return false;
+
 		Storage storage = (Storage) o;
-		return capacityStorage == storage.capacityStorage && Objects.equals(brand, storage.brand) && Objects.equals(typeStorage, storage.typeStorage);
+
+		if (!Objects.equals(brand, storage.brand)) return false;
+		if (!Objects.equals(typeStorage, storage.typeStorage)) return false;
+		return Objects.equals(capacityStorage, storage.capacityStorage);
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(brand, typeStorage, capacityStorage);
+		int result = brand != null ? brand.hashCode() : 0;
+		result = 31 * result + (typeStorage != null ? typeStorage.hashCode() : 0);
+		result = 31 * result + (capacityStorage != null ? capacityStorage.hashCode() : 0);
+		return result;
 	}
 
 	@Override
