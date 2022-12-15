@@ -1,7 +1,6 @@
-package final_task.Specification;
-
+package final_task.pojo.Specification;
 /*
-класс, описание параметров видеокарты
+класс, описание параметров/характеристик видеокарты
 */
 import java.util.Objects;
 
@@ -44,13 +43,24 @@ public class VideoAdapter{
 	public boolean equals(Object o) {
 		if (this == o) return true;
 		if (o == null || getClass() != o.getClass()) return false;
+
 		VideoAdapter that = (VideoAdapter) o;
-		return ramSize == that.ramSize && Objects.equals(brand, that.brand) && Objects.equals(model, that.model) && Objects.equals(adapterType, that.adapterType) && Objects.equals(ramType, that.ramType);
+
+		if (!Objects.equals(brand, that.brand)) return false;
+		if (!Objects.equals(model, that.model)) return false;
+		if (!Objects.equals(adapterType, that.adapterType)) return false;
+		if (!Objects.equals(ramSize, that.ramSize)) return false;
+		return Objects.equals(ramType, that.ramType);
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(brand, model, adapterType, ramSize, ramType);
+		int result = brand != null ? brand.hashCode() : 0;
+		result = 31 * result + (model != null ? model.hashCode() : 0);
+		result = 31 * result + (adapterType != null ? adapterType.hashCode() : 0);
+		result = 31 * result + (ramSize != null ? ramSize.hashCode() : 0);
+		result = 31 * result + (ramType != null ? ramType.hashCode() : 0);
+		return result;
 	}
 
 	@Override
