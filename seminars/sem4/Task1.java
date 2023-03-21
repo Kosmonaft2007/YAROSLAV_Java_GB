@@ -5,7 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
-/*
+/* ARRAY LIST
+
 Реализовать консольное приложение, которое в цикле:
 Принимает от пользователя строку вида
 text~num
@@ -35,7 +36,9 @@ public class Task1 {
 
             if (textAndNum[0].equals("print")) {
                 System.out.println(list.get(i));
-                list.remove(i);
+                // УДАЛЕНИЕ ИЗ СПИСКА
+                list.remove(i); // по индексу
+//                cats.remove(philipp); // по ссылке
                 continue;
             }
 
