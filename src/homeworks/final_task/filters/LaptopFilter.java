@@ -1,4 +1,4 @@
-package final_task.filters;
+package filters;
 
 import final_task.pojo.Laptop;
 

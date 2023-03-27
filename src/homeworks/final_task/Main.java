@@ -1,5 +1,3 @@
-package final_task;
-
 import final_task.filters.LaptopFilter;
 import final_task.pojo.*;
 import final_task.pojo.Specification.*;

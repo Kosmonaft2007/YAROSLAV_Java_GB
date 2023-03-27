@@ -1,4 +1,4 @@
-package final_task.pojo.Specification;
+package pojo.Specification;
 /*
 класс, описание параметров/характеристик видеокарты
 */

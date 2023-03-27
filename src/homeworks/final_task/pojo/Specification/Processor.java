@@ -1,4 +1,4 @@
-package final_task.pojo.Specification;
+package pojo.Specification;
 
 import java.util.Objects;
 

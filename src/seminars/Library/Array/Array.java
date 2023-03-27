@@ -30,7 +30,7 @@ public class Array {
         }
 
 //     ---------------ARRAY STRING---------
-        String_Char[] array2 = new String_Char[5];
+        String[] array2 = new String[5];
 //        String[] array2 = new String[] {"null","null","null","null","null"};
         System.out.println(array2.length); //  метод length - длину массива от 0 до 4 = 5
 

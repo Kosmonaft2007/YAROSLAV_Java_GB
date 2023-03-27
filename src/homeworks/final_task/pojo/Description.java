@@ -1,4 +1,4 @@
-package final_task.pojo;
+package pojo;
 
 import final_task.pojo.Specification.*;
 
