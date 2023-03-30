@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class LibrarySem {
     // Считываем текс из консоли
     public static String scannerText() {
+//        String s =
+//        String s =
         Scanner sc = new Scanner(System.in);
         System.out.print("Введите текст");
         String text = sc.nextLine();

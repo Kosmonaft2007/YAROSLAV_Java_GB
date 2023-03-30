@@ -20,6 +20,8 @@ public class RegEx_Split {
 
 class RegEx_Split1 {
     public static void main(String[] args) {
+
+
 //       d - колличество цифр - 6шт
 //      d+ - колличество значений (8 2 4 670) - 4шт
 
