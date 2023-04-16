@@ -27,16 +27,16 @@ enum Day {
     }
 
     public boolean isWeekend() {
-//        Day day = Day.SATURDAY;
-//        switch (day) {
-//            case SATURDAY:
-//            case SUNDAY:
-//                return true;
-//            default:
-//                return false;
-//        }
-        boolean boo = (Day.SUNDAY.isWeekend() && Day.SATURDAY.isWeekend()) ? true : false;
-        return boo;
+        Day day = Day.SATURDAY;
+        switch (day) {
+            case SATURDAY:
+            case SUNDAY:
+                return true;
+            default:
+                return false;
+        }
+//        boolean boo = (Day.SUNDAY.isWeekend() && Day.SATURDAY.isWeekend()) ? true : false;
+//        return boo;
     }
 
     public static void main(String[] args) {
