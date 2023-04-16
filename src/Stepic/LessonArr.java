@@ -12,10 +12,11 @@ public class LessonArr {
 
         while (x <= y) {
 
-            sum = sum + x ;
+            sum = sum + x;
             x++;
 
-        }System.out.println((x % 2 == 0) ? sum  : "");
+        }
+        System.out.println((x % 2 == 0) ? sum : "");
     }
 }
 
@@ -30,13 +31,13 @@ Sample Output:
  */
 
 //import java.util.Scanner;
-    class LessonArr0 {
+class LessonArr0 {
     public static void main(String[] args) {
         Scanner sr = new Scanner(System.in);
         int n = sr.nextInt();
         int[] array = new int[n];
-        for(int i = 0; i < array.length; i++){
-            array[i] = i+1;
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i + 1;
             System.out.print(array[i] + " ");
         }
 
@@ -70,13 +71,13 @@ class LessonArr1 {
         for (int i = 0; i < size; i++) {
             array[i] = input.nextInt(); // Заполняем массив элементами, введёнными с клавиатуры
         }
-        System.out.print ("Inserted array elements:");
+        System.out.print("Inserted array elements:");
         for (int i = 0; i < size; i++) {
-            System.out.print (" " + array[i]); // Выводим на экран, полученный массив
+            System.out.print(" " + array[i]); // Выводим на экран, полученный массив
         }
         System.out.println();
     }
-    }
+}
 
     /*
     Создайте массив, в котором будут храниться кубы чисел от 1 до 1000.
@@ -95,11 +96,12 @@ class LessonArr2 {
     public static void main(String[] args) {
         int n = 10;
         int[] array = new int[n];
-        for(int i = 1; i < n; i++)
+        for (int i = 1; i < n; i++)
             array[i] = (int) Math.pow(i, 3);
         System.out.println(array[3]);
     }
 }
+
 //import java.util.Scanner;
 class LessonArr2_1 {
     public static void main(String[] args) {
@@ -108,27 +110,27 @@ class LessonArr2_1 {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int n = 1001;
-        int [] mas = new int [n];
+        int[] mas = new int[n];
 
         for (int i = 0; i < n; i++)
-            mas [i] = (int) Math.pow(i, 3 );
+            mas[i] = (int) Math.pow(i, 3);
 
-        System.out.println (mas [a] + "\n" + mas [b]);
+        System.out.println(mas[a] + "\n" + mas[b]);
     }
 }
 
-    class LessonArr2_2{
-        public static void main(String[] args){
-            Scanner sc = new Scanner(System.in);
-            int[] a = new int[1001];
-            int x = sc.nextInt();
-            int y = sc.nextInt();
-            a[x] = x * x * x;
-            a[y] = y * y * y;
-                System.out.println(a[x]);
-            System.out.println(a[y]);
-        }
+class LessonArr2_2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] a = new int[1001];
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        a[x] = x * x * x;
+        a[y] = y * y * y;
+        System.out.println(a[x]);
+        System.out.println(a[y]);
     }
+}
 
 
     /*
@@ -158,13 +160,13 @@ class LessonArr3 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        int [] mas = new int [n];
+        int[] mas = new int[n];
 
         for (int i = 0; i < n; i++)
-            mas [i] = sc.nextInt();
+            mas[i] = sc.nextInt();
         int b = sc.nextInt();
         for (int i = 0; i < n; i++)
-        System.out.println (mas [i] * b);
+            System.out.println(mas[i] * b);
     }
 }
 /*
@@ -209,15 +211,15 @@ class LessonArr4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int [] mas = new int [n];
+        int[] mas = new int[n];
         int sum = 0;
-        for (int i = 0; i < n; i++){
-            mas [i] = sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            mas[i] = sc.nextInt();
             sum += mas[i];
         }
-        System.out.println (sum);
-        for (int i = mas.length - 1; i >= 0 ; i--)
-            System.out.println (mas[i]);
+        System.out.println(sum);
+        for (int i = mas.length - 1; i >= 0; i--)
+            System.out.println(mas[i]);
     }
 }
 /*
@@ -261,18 +263,18 @@ class LessonArr5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int [] mas = new int [n];
+        int[] mas = new int[n];
         int sum = 0;
-        for (int i = 0; i < n; i++){
-            mas [i] = sc.nextInt();
-           if (i% 2 == 0 || i == 0)  // определяем на четность индекс массива  /   (mas[i]%2 !=0) определяем на четность значения  содержащихся в  массива
-           sum += mas [i];  //  sum =sum + mass[i];  сумма элекментов массива
+        for (int i = 0; i < n; i++) {
+            mas[i] = sc.nextInt();
+            if (i % 2 == 0 || i == 0)  // определяем на четность индекс массива  /   (mas[i]%2 !=0) определяем на четность значения  содержащихся в  массива
+                sum += mas[i];  //  sum =sum + mass[i];  сумма элекментов массива
         }
 //        sc.close();
-        System.out.println (sum);
-        for (int i = 0; i < mas.length ; i++)  //  почему ввели j вместо i ?????????
-            if (i % 2 == 0 )
-            System.out.println ( mas[i] );
+        System.out.println(sum);
+        for (int i = 0; i < mas.length; i++)  //  почему ввели j вместо i ?????????
+            if (i % 2 == 0)
+                System.out.println(mas[i]);
     }
 }
 /*
@@ -325,10 +327,10 @@ class LessonArr6 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();  // количество элеметов массива 4
 
-        int [] mas = new int [n];
+        int[] mas = new int[n];
         int sum = 0; // еще не знаю за чем
-        for (int i = 0; i < mas.length; i++){
-            mas [i] = sc.nextInt();  // список элеметов массива 2 3 4 5
+        for (int i = 0; i < mas.length; i++) {
+            mas[i] = sc.nextInt();  // список элеметов массива 2 3 4 5
 
         }
         int a = sc.nextInt(); // элеметы массива
@@ -336,7 +338,7 @@ class LessonArr6 {
 
 
         if (a <= n || b <= n || a != b) {  // Гарантируется, что а и b не выходят за границы размеров массива
-            int k = mas [a]; // k это наша третья переменная
+            int k = mas[a]; // k это наша третья переменная
             mas[a] = mas[b];
             mas[b] = k;
         }
@@ -446,24 +448,24 @@ class LessonArr7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();  // количество ребят
-        int [] mas = new int [n];
+        int[] mas = new int[n];
 ////        int sum = 0; // еще не знаю за чем
-        for (int i = 0; i < n; i++){
-            if (mas [i] <=200){
-                mas [i] = sc.nextInt();  // список элеметов массива - их рост
+        for (int i = 0; i < n; i++) {
+            if (mas[i] <= 200) {
+                mas[i] = sc.nextInt();  // список элеметов массива - их рост
             }
         }
         int a = sc.nextInt(); // рост пети
 ////        int b = sc.nextInt(); // элеметы массива
 
-        int index = n+1;
+        int index = n + 1;
 //        int index = 0;
-             for(int i = 0; i < n; i++) {
-                 if (mas[i] < a) {       //   перебираем массив, с маленького роста
-                     index = i;
+        for (int i = 0; i < n; i++) {
+            if (mas[i] < a) {       //   перебираем массив, с маленького роста
+                index = i;
 //                break;
-                 }
-             }
+            }
+        }
 //             System.out.println(index + 1);
         System.out.println(index);
 //        for (int i = 0; i < n; i++) {
@@ -506,11 +508,11 @@ class LessonArr8 {
 }
 
 
-  class LessonArr9 {
+class LessonArr9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int [] array = new int[n];
+        int[] array = new int[n];
 
         for (int i = 0; i < array.length; i++) {
             array[i] = i;
@@ -539,9 +541,9 @@ class LessonArr10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int [] array = new int[n];
+        int[] array = new int[n];
         for (int j = 0; j < n; j++)
-            array[j] = j*j;
+            array[j] = j * j;
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }

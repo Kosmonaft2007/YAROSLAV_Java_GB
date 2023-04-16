@@ -19,13 +19,12 @@ public class Array {
         array[3] = 4;
         System.out.println(array[3]);
 
-        int b=3;
-        if (b<array.length)
-        {
+        int b = 3;
+        if (b < array.length) {
             System.out.println(array[b]);
         }
         // Вывести, распечатать, массив
-        for (int i =0; i<array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
 
@@ -38,23 +37,24 @@ public class Array {
 //        array2[3] = "любой текст"; //                 спросить у ДЕНА
 
         // Вывести, распечатать, массив
-        for (int i =0; i<array2.length; i++){
+        for (int i = 0; i < array2.length; i++) {
             System.out.println(array2[i]);
         }
 
 
         String a = "aaaa";                        //                 спросить у ДЕНА
-        // Манипуляции с  массив
-        for (int i =0; i<array2.length; i++){
+        // Манипуляции с массивом
+        for (int i = 0; i < array2.length; i++) {
             // находим свободный элемент
-            if (array2[i]== null);{
-            //
+            if (array2[i] == null) ;
+            {
+                //
 //            array2[i] = a;             //                 спросить у ДЕНА
-            break;
+                break;
             }
         }
         // Вывести, распечатать, массив
-        for (int i =0; i<array2.length; i++){
+        for (int i = 0; i < array2.length; i++) {
             System.out.println(array2[i]);
         }
 
