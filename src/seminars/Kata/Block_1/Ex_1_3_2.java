@@ -15,6 +15,9 @@ public class Ex_1_3_2 {
         int d = rr + a;
         char chh = (char) d;
         return chh;
+
+//        return (char) ((int) '\\' + a);
+
     }
 
 }

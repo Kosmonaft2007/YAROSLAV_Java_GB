@@ -6,8 +6,8 @@ public class Ex_1_2_10 {
     }
 
     public static boolean doubleExpression(double a, double b, double c) {
-        boolean boo = true;
-        boo = (Math.abs((a + b) - c) <= 1E-4) ? true : false;
-        return boo;
+//        boolean boo = true;
+//        boo = (Math.abs((a + b) - c) <= 1E-4) ? true : false;
+        return (Math.abs((a + b) - c) <= 1E-4);
     }
 }

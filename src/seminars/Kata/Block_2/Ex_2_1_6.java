@@ -1,4 +1,4 @@
-package Kata.Block_1;
+package src.seminars.Kata.Block_2;
 
 import sem6.Cat;
 

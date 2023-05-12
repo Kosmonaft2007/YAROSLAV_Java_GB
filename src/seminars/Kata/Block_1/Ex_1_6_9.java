@@ -16,11 +16,20 @@ public class Ex_1_6_9 {
 //
 //        return boo;
 //    }
-    public static boolean isPalindrome(String text) {
+    public static boolean isPalindrome1(String text) {
         String replace = text.replaceAll("[^a-zA-Z0-9]", "");
         StringBuilder stringBuilder = new StringBuilder(replace);
         stringBuilder.reverse();
         String revers = stringBuilder.toString();
         return replace.equalsIgnoreCase(revers);
     }
+
+    public static boolean isPalindrome(String text) {
+        String replace = text.replaceAll("[^a-zA-Z0-9]", "");
+        StringBuilder stringBuilder = new StringBuilder(replace);
+//        stringBuilder.reverse();
+//        String revers = stringBuilder.reverse().toString();
+        return stringBuilder.reverse().toString().equalsIgnoreCase(stringBuilder.reverse().toString());
+    }
+
 }

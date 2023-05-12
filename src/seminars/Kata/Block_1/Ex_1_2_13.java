@@ -11,5 +11,7 @@ public class Ex_1_2_13 {
         double r = area / (Math.PI);
         double radius = Math.sqrt(r);
         System.out.printf("%.3f", radius);
+
+//        System.out.printf("%.3f", Math.sqrt(area / ( Math.PI)));
     }
 }
